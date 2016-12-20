@@ -1,1 +1,15 @@
-*,*:before,*:after{box-sizing:border-box;margin:0;padding:0}div.container{height:200px;width:400px;background-color:#fff}
+/* line 4, /Users/stefke_vdloo/uxds-intcult/sass/style.scss */
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 10, /Users/stefke_vdloo/uxds-intcult/sass/style.scss */
+div.container {
+  height: 200px;
+  width: 300px;
+  background-color: #fff;
+}
+
+/*# sourceMappingURL=../css/style.map */
