@@ -5,8 +5,8 @@
 		"../sass/style.scss"
 	],
 	"sourcesContent": [
-		"$backgroundColor: #000;\n$widthStijn: 300px;\n$headerColor: #fff;\n\n*, *:before, *:after {\n  box-sizing: border-box;\n  margin: 0;\n  padding: 0;\n}\n\ndiv.container{\n  height:200px;\n  width: $widthStijn;\n  background-color: $backgroundColor;\n}\n\nh1{\n\tcolor: $headerColor !important;\n}"
+		"// Google Fonts\n@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');\n\n// Font Variables \n$open-sans: 'Open Sans';\n\n// Other Variables\n$colorWhite: #ffffff;\n\n// Styles\nbody {\n  font-family: $open-sans;\n  font-weight: 400;\n}\nh1, h2, h3, h4, h5, h6 {\n  font-family: $open-sans;\n  font-weight: 300;\n}\n\nh1{\n\tcolor:$colorWhite;\n}\n\np{\n\tfont-family: $open-sans;\n\tfont-weight: 300;\n}\n\n.my-container {\n\tmax-width: 1200px;\n\tmargin: 0 auto;\n\tpadding: 10px;\n}\n\n"
 	],
-	"mappings": ";AAIA,AAAA,CAAC,EAAE,AAAC,CAAA,AAAA,OAAO,EAAE,AAAC,CAAA,AAAA,MAAM,CAAC;EACnB,UAAU,EAAE,UAAW;EACvB,MAAM,EAAE,CAAE;EACV,OAAO,EAAE,CAAE;CACZ;;;AAED,AAAG,GAAA,AAAA,UAAU,CAAA;EACX,MAAM,EAAC,KAAM;EACb,KAAK,EAXM,KAAK;EAYhB,gBAAgB,EAbA,IAAI;CAcrB;;;AAED,AAAA,EAAE,CAAA;EACD,KAAK,EAfQ,IAAI,CAeG,UAAU;CAC9B",
+	"mappings": "AACA,OAAO,CAAC,wEAAI;;AASZ,AAAA,IAAI,CAAC;EACH,WAAW,EAPD,WAAW;EAQrB,WAAW,EAAE,GAAI;CAClB;;;AACD,AAAA,EAAE,EAAE,AAAA,EAAE,EAAE,AAAA,EAAE,EAAE,AAAA,EAAE,EAAE,AAAA,EAAE,EAAE,AAAA,EAAE,CAAC;EACrB,WAAW,EAXD,WAAW;EAYrB,WAAW,EAAE,GAAI;CAClB;;;AAED,AAAA,EAAE,CAAA;EACD,KAAK,EAbO,OAAO;CAcnB;;;AAED,AAAA,CAAC,CAAA;EACA,WAAW,EApBA,WAAW;EAqBtB,WAAW,EAAE,GAAI;CACjB;;;AAED,AAAA,aAAa,CAAC;EACb,SAAS,EAAE,MAAO;EAClB,MAAM,EAAE,MAAO;EACf,OAAO,EAAE,IAAK;CACd",
 	"names": []
 }

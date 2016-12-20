@@ -1,12 +1,20 @@
-*, *:before, *:after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0; }
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
+body {
+  font-family: "Open Sans";
+  font-weight: 400; }
 
-div.container {
-  height: 200px;
-  width: 300px;
-  background-color: #000; }
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Open Sans";
+  font-weight: 300; }
 
 h1 {
-  color: #fff !important; }
+  color: #ffffff; }
+
+p {
+  font-family: "Open Sans";
+  font-weight: 300; }
+
+.my-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px; }
