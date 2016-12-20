@@ -6,4 +6,7 @@
 div.container {
   height: 200px;
   width: 300px;
-  background-color: #fff; }
+  background-color: #000; }
+
+h1 {
+  color: #fff !important; }
