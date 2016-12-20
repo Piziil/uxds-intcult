@@ -1,20 +1,17 @@
-/* line 5, /Users/stefke_vdloo/uxds-intcult/uikit/sass/style.scss */
 *, *:before, *:after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-/* line 11, /Users/stefke_vdloo/uxds-intcult/uikit/sass/style.scss */
 div.container {
   height: 200px;
   width: 300px;
   background-color: #000;
 }
 
-/* line 17, /Users/stefke_vdloo/uxds-intcult/uikit/sass/style.scss */
 h1 {
-  color: #fff !important;
+  color: #000 !important;
 }
 
-/*# sourceMappingURL=../css/style.map */
+/*# sourceMappingURL=style.css.map */
