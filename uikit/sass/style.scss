@@ -12,19 +12,46 @@ $colorBlack: #000000;
 $colorWhite: #ffffff;
 
 // Styles
-body {
-
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: $open-sans;
-  font-weight: 300;
+html{
+	background-color: #f1f1f1;
+	padding: 0;
+	margin: 0;
 }
 
 h1{
 	font-family: $montserrat;
+	letter-spacing: 3px;
+	font-size: 45px;
+	color: #4C4C4C;	
 	font-weight: 700;
-	color:$colorWhite;
+}
+
+h2{
+	font-family: $montserrat;
+	text-transform: uppercase;
+	color: #4C4C4C;
+	font-size: 33px;
+	font-weight: 700;
+}
+
+h4{
+	font-family: $montserrat;
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #4C4C4C;
+	font-weight: 400;
+}
+
+h5{
+	font-family: $montserrat;
+	color: #4C4C4C;
+	font-weight: 400;
+}
+
+p{
+	font-family: $montserrat;
+	color: #4C4C4C;
+	line-height: 24px;
 }
 
 p{
@@ -33,11 +60,25 @@ p{
 	color: $colorBlack;
 }
 
-.uk-container-center{
-
-}
-
+// Navigation
 .navigation{
 	z-index: 1000;
 }
+
+// Container
+.uk-container-center{
+	max-width: 1100px;
+	padding: 50px;
+}
+
+// Slides
+.slideBerlin{
+	background-image: url("../images/scene-1.png");
+
+}
+
+
+
+
+
 

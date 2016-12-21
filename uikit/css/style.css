@@ -1,28 +1,74 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
-/* line 19, /Users/stefke_vdloo/uxds-intcult/uikit/sass/style.scss */
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Open Sans";
-  font-weight: 300;
+/* line 15, /Users/stefke_vdloo/uxds-intcult/uikit/sass/style.scss */
+html {
+  background-color: #f1f1f1;
+  padding: 0;
+  margin: 0;
 }
 
-/* line 24, /Users/stefke_vdloo/uxds-intcult/uikit/sass/style.scss */
+/* line 21, /Users/stefke_vdloo/uxds-intcult/uikit/sass/style.scss */
 h1 {
   font-family: "Montserrat";
+  letter-spacing: 3px;
+  font-size: 45px;
+  color: #4C4C4C;
   font-weight: 700;
-  color: #ffffff;
 }
 
-/* line 30, /Users/stefke_vdloo/uxds-intcult/uikit/sass/style.scss */
+/* line 29, /Users/stefke_vdloo/uxds-intcult/uikit/sass/style.scss */
+h2 {
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  color: #4C4C4C;
+  font-size: 33px;
+  font-weight: 700;
+}
+
+/* line 37, /Users/stefke_vdloo/uxds-intcult/uikit/sass/style.scss */
+h4 {
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #4C4C4C;
+  font-weight: 400;
+}
+
+/* line 45, /Users/stefke_vdloo/uxds-intcult/uikit/sass/style.scss */
+h5 {
+  font-family: "Montserrat";
+  color: #4C4C4C;
+  font-weight: 400;
+}
+
+/* line 51, /Users/stefke_vdloo/uxds-intcult/uikit/sass/style.scss */
+p {
+  font-family: "Montserrat";
+  color: #4C4C4C;
+  line-height: 24px;
+}
+
+/* line 57, /Users/stefke_vdloo/uxds-intcult/uikit/sass/style.scss */
 p {
   font-family: "Open Sans";
   font-weight: 300;
   color: #000000;
 }
 
-/* line 40, /Users/stefke_vdloo/uxds-intcult/uikit/sass/style.scss */
+/* line 64, /Users/stefke_vdloo/uxds-intcult/uikit/sass/style.scss */
 .navigation {
   z-index: 1000;
+}
+
+/* line 69, /Users/stefke_vdloo/uxds-intcult/uikit/sass/style.scss */
+.uk-container-center {
+  max-width: 1100px;
+  padding: 50px;
+}
+
+/* line 75, /Users/stefke_vdloo/uxds-intcult/uikit/sass/style.scss */
+.slideBerlin {
+  background-image: url("../images/scene-1.png");
 }
 
 /*# sourceMappingURL=../css/style.map */

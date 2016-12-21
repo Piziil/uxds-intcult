@@ -7,7 +7,7 @@
         <!-- UIKIT JS -->
         <script src="js/jquery.js"></script>
         <script src="js/uikit.min.js"></script>
-        <script src="js/components/paralax.js"></script>
+        <script src="js/components/parallax.js"></script>
         <script src="js/components/sticky.js"></script>
         <!-- CSS -->
         <link rel="stylesheet" href="css/style.css">
@@ -16,113 +16,110 @@
         <div class="navigation" data-uk-sticky>
             <nav class="uk-navbar">
                 <ul class="uk-navbar-nav">
-                    <li class="uk-active"><a href="#amsterdam">Amsterdam</a></li>
-                    <li><a href="#minglabs">Minglabs</a></li>
-                    <li><a href="#apeunit">Ape Unit</a></li>
-                    <li><a href="#macromedia">Macromedia</a></li>
-                    <li><a href="#publicdrinking">Public drinking</a></li>
-                    <li><a href="#freetime">Free time</a></li>
+                    <li class="uk-active"><a href="#amsterdam" data-uk-smooth-scroll="{offset: 0}">Amsterdam</a></li>
+                    <li><a href="#minglabs" data-uk-smooth-scroll="{offset: 0}">Minglabs</a></li>
+                    <li><a href="#apeunit" data-uk-smooth-scroll="{offset: 0}">Ape Unit</a></li>
+                    <li><a href="#macromedia" data-uk-smooth-scroll="{offset: 0}">Macromedia</a></li>
+                    <li><a href="#publicdrinking" data-uk-smooth-scroll="{offset: 0}">Public drinking</a></li>
+                    <li><a href="#freetime" data-uk-smooth-scroll="{offset: 0}">Free time</a></li>
                 </ul>
             </nav>
         </div>
 
         <div class="uk-container-center">
             <!-- Amsterdam -->
-            <section class="uk-cover-background uk-position-relative" id="amsterdam">
-                <img class="uk-invisible" src="images/berlin.jpg" width="100%" height="auto" alt="">
-                <div class="uk-position-cover uk-flex uk-flex-center uk-flex-middle">SLIDE 1</div>
+            <section id="amsterdam">
+                <div class="uk-grid" data-uk-grid-margin>
+                    <div class="uk-width-medium-1-1">
+                        <div class="uk-vertical-align uk-text-center slideBerlin">
+                            <div class="uk-vertical-align-middle uk-width-1-2">
+                                <h1 class="uk-heading-large">From Amsterdam to Berlin</h1>
+                                <p class="uk-text-large">We've been there for a couple of days.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
             <!-- CLOSE Amsterdam -->
 
             <!-- Minglabs -->
-            <section class="uk-cover-background uk-position-relative" id="minglabs">
-                <img class="uk-invisible" src="images/berlin.jpg" width="100%" height="auto" alt="">
-                <div class="uk-position-cover uk-flex uk-flex-center uk-flex-middle">SLIDE 2</div>
+            <section class="uk-cover-background uk-position-relative slides" id="minglabs">
+                <div class="uk-grid" data-uk-grid-margin>
+                    <div class="uk-width-medium-1-1">
+                        <div class="uk-vertical-align uk-text-center" style="height: 450px;">
+                            <div class="uk-vertical-align-middle uk-width-1-2">
+                                <h1 class="uk-heading-large">Minglabs</h1>
+                                <p class="uk-text-large">An interaction design company in Berlin.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
             <!-- CLOSE Minglabs -->
 
             <!-- Ape Unit -->
-            <section class="uk-cover-background uk-position-relative" id="apeunit">
-                <img class="uk-invisible" src="images/berlin.jpg" width="100%" height="auto" alt="">
-                <div class="uk-position-cover uk-flex uk-flex-center uk-flex-middle">SLIDE 3</div>
+            <section class="uk-cover-background uk-position-relative slides" id="apeunit">
+                <div class="uk-grid" data-uk-grid-margin>
+                    <div class="uk-width-medium-1-1">
+                        <div class="uk-vertical-align uk-text-center" style="height: 450px;">
+                            <div class="uk-vertical-align-middle uk-width-1-2">
+                                <h1 class="uk-heading-large">Ape Unit</h1>
+                                <p class="uk-text-large">A design and development bureau in Berlin.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
             <!-- CLOSE Ape Unit -->
 
             <!-- Macromedia Berlin -->
-            <section class="uk-cover-background uk-position-relative" id="macromedia">
-                <img class="uk-invisible" src="images/berlin.jpg" width="100%" height="auto" alt="">
-                <div class="uk-position-cover uk-flex uk-flex-center uk-flex-middle">SLIDE 4</div>
+            <section class="uk-cover-background uk-position-relative slides" id="macromedia">
+                <div class="uk-grid" data-uk-grid-margin>
+                    <div class="uk-width-medium-1-1">
+                        <div class="uk-vertical-align uk-text-center" style="height: 450px;">
+                            <div class="uk-vertical-align-middle uk-width-1-2">
+                                <h1 class="uk-heading-large">Macromedia</h1>
+                                <p class="uk-text-large">Rapid prototyping with the international students.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
             <!-- CLOSE Macromedia Berlin -->
 
             <!-- Public drinking -->
-            <section class="uk-cover-background uk-position-relative" id="publicdrinking">
-                <img class="uk-invisible" src="images/berlin.jpg" width="100%" height="auto" alt="">
-                <div class="uk-position-cover uk-flex uk-flex-center uk-flex-middle">SLIDE 5</div>
+            <section class="uk-cover-background uk-position-relative slides" id="publicdrinking">
+                <div class="uk-grid" data-uk-grid-margin>
+                    <div class="uk-width-medium-1-1">
+                        <div class="uk-vertical-align uk-text-center" style="height: 450px;">
+                            <div class="uk-vertical-align-middle uk-width-1-2">
+                                <h1 class="uk-heading-large">Public drinking</h1>
+                                <p class="uk-text-large">In Berlin it's normal to drink in public.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
             <!-- CLOSE Public drinking -->
 
             <!-- Free time -->
-            <section class="uk-cover-background uk-position-relative" id="freetime">
-                <img class="uk-invisible" src="images/berlin.jpg" width="100%" height="auto" alt="">
-                <div class="uk-position-cover uk-flex uk-flex-center uk-flex-middle">SLIDE 6</div>
+            <section class="uk-cover-background uk-position-relative slides" id="freetime">
+                <div class="uk-grid" data-uk-grid-margin>
+                    <div class="uk-width-medium-1-2">
+                        <h1>Vape shop</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        </p>
+                    </div>
+                    
+                    <div class="uk-width-medium-1-2">
+                        <h1>Graffiti</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        </p>
+                    </div>
+                </div>
             </section>
             <!-- CLOSE Free time -->
-        </div>
 
-       <!--  <div class="my-container">
-            <ul class="uk-grid uk-grid-small uk-grid-width-1-1 uk-grid-width-medium-1-3 uk-grid-width-large-1-6 uk-animation-shake" data-uk-grid-margin>
-                <li>
-                    <div class="uk-panel uk-panel-box">
-                        <h2>Stef van der Loo</h2>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vitae tellus tempor, porttitor enim ac, cursus nibh. Suspendisse eleifend nunc vel diam vehicula rhoncus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut hendrerit orci vel interdum placerat. Suspendisse eu ante sit amet lectus vestibulum tincidunt quis at ipsum. Integer pretium sed mauris et rutrum. Donec rhoncus volutpat nunc, sagittis tincidunt ante dictum et.
-                        </p>
-                    </div>
-                </li>
-                <li>
-                    <div class="uk-panel uk-panel-box">
-                        <h2>Stef van der Loo</h2>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vitae tellus tempor, porttitor enim ac, cursus nibh. Suspendisse eleifend nunc vel diam vehicula rhoncus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut hendrerit orci vel interdum placerat. Suspendisse eu ante sit amet lectus vestibulum tincidunt quis at ipsum. Integer pretium sed mauris et rutrum. Donec rhoncus volutpat nunc, sagittis tincidunt ante dictum et.
-                        </p>
-                    </div>
-                </li>
-                <li>
-                    <div class="uk-panel uk-panel-box">
-                        <h2>Stef van der Loo</h2>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vitae tellus tempor, porttitor enim ac, cursus nibh. Suspendisse eleifend nunc vel diam vehicula rhoncus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut hendrerit orci vel interdum placerat. Suspendisse eu ante sit amet lectus vestibulum tincidunt quis at ipsum. Integer pretium sed mauris et rutrum. Donec rhoncus volutpat nunc, sagittis tincidunt ante dictum et.
-                        </p>
-                    </div>
-                </li>
-                <li>
-                    <div class="uk-panel uk-panel-box">
-                        <h2>Stef van der Loo</h2>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vitae tellus tempor, porttitor enim ac, cursus nibh. Suspendisse eleifend nunc vel diam vehicula rhoncus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut hendrerit orci vel interdum placerat. Suspendisse eu ante sit amet lectus vestibulum tincidunt quis at ipsum. Integer pretium sed mauris et rutrum. Donec rhoncus volutpat nunc, sagittis tincidunt ante dictum et.
-                        </p>
-                    </div>
-                </li>
-                <li>
-                    <div class="uk-panel uk-panel-box">
-                        <h2>Stef van der Loo</h2>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vitae tellus tempor, porttitor enim ac, cursus nibh. Suspendisse eleifend nunc vel diam vehicula rhoncus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut hendrerit orci vel interdum placerat. Suspendisse eu ante sit amet lectus vestibulum tincidunt quis at ipsum. Integer pretium sed mauris et rutrum. Donec rhoncus volutpat nunc, sagittis tincidunt ante dictum et.
-                        </p>
-                    </div>
-                </li>
-                <li>
-                    <div class="uk-panel uk-panel-box">
-                        <h2>Stef van der Loo</h2>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vitae tellus tempor, porttitor enim ac, cursus nibh. Suspendisse eleifend nunc vel diam vehicula rhoncus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut hendrerit orci vel interdum placerat. Suspendisse eu ante sit amet lectus vestibulum tincidunt quis at ipsum. Integer pretium sed mauris et rutrum. Donec rhoncus volutpat nunc, sagittis tincidunt ante dictum et.
-                        </p>
-                    </div>
-                </li>
-            </ul>
-        
-        </div> -->
-        
+        </div> <!-- CLOSE container -->
     </body>
 </html>
