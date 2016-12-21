@@ -8,60 +8,64 @@
         <script src="js/jquery.js"></script>
         <script src="js/uikit.min.js"></script>
         <script src="js/components/paralax.js"></script>
+        <script src="js/components/sticky.js"></script>
         <!-- CSS -->
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <nav class="uk-navbar">
-            <ul class="uk-navbar-nav">
-                <li class="uk-active"><a href="#amsterdam">Amsterdam</a></li>
-                <li><a href="#minglabs">Minglabs</a></li>
-                <li><a href="#apeunit">Ape Unit</a></li>
-                <li><a href="#macromedia">Macromedia</a></li>
-                <li><a href="#publicdrinking">Public drinking</a></li>
-            </ul>
-        </nav>
+        <div class="navigation" data-uk-sticky>
+            <nav class="uk-navbar">
+                <ul class="uk-navbar-nav">
+                    <li class="uk-active"><a href="#amsterdam">Amsterdam</a></li>
+                    <li><a href="#minglabs">Minglabs</a></li>
+                    <li><a href="#apeunit">Ape Unit</a></li>
+                    <li><a href="#macromedia">Macromedia</a></li>
+                    <li><a href="#publicdrinking">Public drinking</a></li>
+                    <li><a href="#freetime">Free time</a></li>
+                </ul>
+            </nav>
+        </div>
 
         <div class="uk-container-center">
             <!-- Amsterdam -->
             <section class="uk-cover-background uk-position-relative" id="amsterdam">
-                <figure class="uk-overlay uk-overlay-hover">
-                    <img class="uk-overlay-spin" src="images/berlin.jpg" width="100%" height="1000px" alt="berlin">
-                    <figcaption class="uk-overlay-panel uk-overlay-slide-top">...</figcaption>
-                </figure>
+                <img class="uk-invisible" src="images/berlin.jpg" width="100%" height="auto" alt="">
+                <div class="uk-position-cover uk-flex uk-flex-center uk-flex-middle">SLIDE 1</div>
             </section>
             <!-- CLOSE Amsterdam -->
 
             <!-- Minglabs -->
             <section class="uk-cover-background uk-position-relative" id="minglabs">
-                <figure class="uk-overlay uk-overlay-hover">
-                    <img class="uk-overlay-spin" src="images/berlin.jpg" width="100%" height="1000px" alt="berlin">
-                    <figcaption class="uk-overlay-panel uk-overlay-slide-top">...</figcaption>
-                </figure>
+                <img class="uk-invisible" src="images/berlin.jpg" width="100%" height="auto" alt="">
+                <div class="uk-position-cover uk-flex uk-flex-center uk-flex-middle">SLIDE 2</div>
             </section>
             <!-- CLOSE Minglabs -->
 
             <!-- Ape Unit -->
             <section class="uk-cover-background uk-position-relative" id="apeunit">
-                <p>test</p>
+                <img class="uk-invisible" src="images/berlin.jpg" width="100%" height="auto" alt="">
+                <div class="uk-position-cover uk-flex uk-flex-center uk-flex-middle">SLIDE 3</div>
             </section>
             <!-- CLOSE Ape Unit -->
 
             <!-- Macromedia Berlin -->
             <section class="uk-cover-background uk-position-relative" id="macromedia">
-                <p>test</p>
+                <img class="uk-invisible" src="images/berlin.jpg" width="100%" height="auto" alt="">
+                <div class="uk-position-cover uk-flex uk-flex-center uk-flex-middle">SLIDE 4</div>
             </section>
             <!-- CLOSE Macromedia Berlin -->
 
             <!-- Public drinking -->
             <section class="uk-cover-background uk-position-relative" id="publicdrinking">
-                <p>test</p>
+                <img class="uk-invisible" src="images/berlin.jpg" width="100%" height="auto" alt="">
+                <div class="uk-position-cover uk-flex uk-flex-center uk-flex-middle">SLIDE 5</div>
             </section>
             <!-- CLOSE Public drinking -->
 
             <!-- Free time -->
             <section class="uk-cover-background uk-position-relative" id="freetime">
-                <p>test</p>
+                <img class="uk-invisible" src="images/berlin.jpg" width="100%" height="auto" alt="">
+                <div class="uk-position-cover uk-flex uk-flex-center uk-flex-middle">SLIDE 6</div>
             </section>
             <!-- CLOSE Free time -->
         </div>

@@ -20,4 +20,9 @@ p {
   color: #000000;
 }
 
+/* line 40, /Users/stefke_vdloo/uxds-intcult/uikit/sass/style.scss */
+.navigation {
+  z-index: 1000;
+}
+
 /*# sourceMappingURL=../css/style.map */

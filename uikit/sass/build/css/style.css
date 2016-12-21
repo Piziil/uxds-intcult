@@ -13,3 +13,6 @@ p {
   font-family: "Open Sans";
   font-weight: 300;
   color: #000000; }
+
+.navigation {
+  z-index: 1000; }
