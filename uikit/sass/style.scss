@@ -74,10 +74,9 @@ p{
 // Slides
 .slideBerlin{
 	background-image: url("../images/scene-1.png");
-    background-size:cover;
-    width:100%;
+    background-size:contain;
+    width:auto;
     height:900px;
-    background-repeat: no-repeat;
       
 }
 
