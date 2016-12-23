@@ -94,13 +94,27 @@ p {
   max-width: none;
 }
 
-/* line 103, /Users/stefke_vdloo/uxds-intcult/uikit/sass/style.scss */
+/* line 104, /Users/stefke_vdloo/uxds-intcult/uikit/sass/style.scss */
+.uk-offcanvas-bar {
+  background: #ffffff;
+}
+
+/* line 108, /Users/stefke_vdloo/uxds-intcult/uikit/sass/style.scss */
+.uk-nav-offcanvas > li > a {
+  color: #000000;
+  padding: 10px 15px;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  text-shadow: none;
+  font-family: "Open Sans";
+}
+
+/* line 117, /Users/stefke_vdloo/uxds-intcult/uikit/sass/style.scss */
 .uk-container-center {
   max-width: 1100px;
   padding: 50px;
 }
 
-/* line 109, /Users/stefke_vdloo/uxds-intcult/uikit/sass/style.scss */
+/* line 123, /Users/stefke_vdloo/uxds-intcult/uikit/sass/style.scss */
 .slideBerlin {
   background-image: url("../images/scene-1.png");
   background-size: contain;
@@ -108,7 +122,7 @@ p {
   height: 900px;
 }
 
-/* line 116, /Users/stefke_vdloo/uxds-intcult/uikit/sass/style.scss */
+/* line 130, /Users/stefke_vdloo/uxds-intcult/uikit/sass/style.scss */
 .centerfix {
   margin: 0px;
 }

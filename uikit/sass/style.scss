@@ -99,6 +99,20 @@ p{
 	max-width:none;
 }
 
+// Offcanvas
+
+.uk-offcanvas-bar{
+	background: $colorWhite;
+}
+
+.uk-nav-offcanvas>li>a {
+    color: $colorBlack;
+    padding: 10px 15px;
+    border-top: 1px solid rgba(0,0,0,.3);
+    text-shadow: none;
+    font-family: $open-sans;
+}
+
 // Container
 .uk-container-center{
 	max-width: 1100px;
