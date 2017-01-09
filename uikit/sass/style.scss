@@ -121,11 +121,17 @@ p{
 
 // Slides
 .slideBerlin{
-	background-image: url("../images/scene-1.png");
+	background-image: url("../images/scene-1(a).png");
     background-size:contain;
-    width:auto;
-    height:900px;   
+	background-repeat: no-repeat;
 }
+.slideBerlin2{
+	background-image: url("../images/scene-1(a).png");
+    background-size:contain;
+	background-repeat: no-repeat;
+	margin-top:600px;
+}
+
 
 .centerfix{
     margin:0px;
