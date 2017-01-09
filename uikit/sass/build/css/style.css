@@ -84,11 +84,80 @@ p {
   max-width: 1100px;
   padding: 50px; }
 
-.slideBerlin {
-  background-image: url("../images/scene-1.png");
+.slideAmsterdam {
+  background-image: url("../images/scene-1(a).png");
   background-size: contain;
-  width: auto;
-  height: 900px; }
+  background-repeat: no-repeat;
+  animation: background-fade 2s forwards;
+  -webkit-animation: background-fade 2s forwards;
+  -moz-animation: background-fade 2s forwards;
+  animation-delay: 4s; }
+
+@-webkit-keyframes background-fade {
+  99.9% {
+    background: url("../images/scene-1(c).png");
+    background-repeat: no-repeat;
+    background-size: contain; }
+  100% {
+    background: url("../images/scene-1(c).png");
+    background-repeat: no-repeat;
+    background-size: contain; } }
+
+@-moz-keyframes background-fade {
+  99.9% {
+    background: url("../images/scene-1(c).png");
+    background-repeat: no-repeat;
+    background-size: contain; }
+  100% {
+    background: url("../images/scene-1(c).png");
+    background-repeat: no-repeat;
+    background-size: contain; } }
+
+@keyframes background-fade {
+  99.9% {
+    background: url("../images/scene-1(c).png");
+    background-repeat: no-repeat;
+    background-size: contain; }
+  100% {
+    background: url("../images/scene-1(c).png");
+    background-repeat: no-repeat;
+    background-size: contain; } }
+
+.vliegtuig {
+  background-image: url("../images/scene-1(b).png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  animation: slide-left 2s forwards;
+  -webkit-animation: slide-left 2s forwards;
+  -moz-animation: slide-left 2s forwards;
+  position: relative;
+  animation-delay: 0s;
+  height: 100px;
+  width: 100px; }
+
+@-webkit-keyframes slide-left {
+  0% {
+    left: 0px; }
+  50% {
+    left: 200px; }
+  100% {
+    left: 400px; } }
+
+@-moz-keyframes slide-left {
+  0% {
+    left: 0px; }
+  50% {
+    left: 200px; }
+  100% {
+    left: 400px; } }
+
+@keyframes slide-left {
+  0% {
+    left: 0px; }
+  50% {
+    left: 200px; }
+  100% {
+    left: 400px; } }
 
 .centerfix {
   margin: 0px; }
