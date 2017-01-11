@@ -82,7 +82,8 @@ p {
   padding: 50px; }
 
 .slideAmsterdam {
-  background-image: url("../images/scene-1(a).png");
+  background-image: url("../images/scene-1/scene-1(a).png");
+  margin-top: 80px;
   background-size: contain;
   background-repeat: no-repeat;
   animation: background-fade 2s forwards;
@@ -95,43 +96,43 @@ p {
 
 @-webkit-keyframes background-fade {
   99.9% {
-    background: url("../images/scene-1(c).png");
+    background: url("../images/scene-1/scene-1(c).png");
     background-repeat: no-repeat;
     background-size: contain; }
   100% {
-    background: url("../images/scene-1(c).png");
+    background: url("../images/scene-1/scene-1(c).png");
     background-repeat: no-repeat;
     background-size: contain; } }
 
 @-moz-keyframes background-fade {
   99.9% {
-    background: url("../images/scene-1(c).png");
+    background: url("../images/scene-1/scene-1(c).png");
     background-repeat: no-repeat;
     background-size: contain; }
   100% {
-    background: url("../images/scene-1(c).png");
+    background: url("../images/scene-1/scene-1(c).png");
     background-repeat: no-repeat;
     background-size: contain; } }
 
 @keyframes background-fade {
   99.9% {
-    background: url("../images/scene-1(c).png");
+    background: url("../images/scene-1/scene-1(c).png");
     background-repeat: no-repeat;
     background-size: contain; }
   100% {
-    background: url("../images/scene-1(c).png");
+    background: url("../images/scene-1/scene-1(c).png");
     background-repeat: no-repeat;
     background-size: contain; } }
 
 .vliegtuig {
-  background-image: url("../images/scene-1(b).png");
+  background-image: url("../images/scene-1/scene-1(b).png");
   background-size: contain;
   background-repeat: no-repeat;
   animation: slide-left 2s forwards;
   -webkit-animation: slide-left 2s forwards;
   -moz-animation: slide-left 2s forwards;
   position: relative;
-  animation-delay: 0s;
+  animation-delay: 0.8s;
   height: 100px;
   width: 100px; }
 
@@ -159,8 +160,185 @@ p {
   100% {
     left: 400px; } }
 
-.centerfix {
-  margin: 0px; }
+#macromedia {
+  height: 150vh; }
 
-header {
-  background-image: url("../images/scene-1(b).png"); }
+.group-1 {
+  background-image: url("../images/scene-4/scene-4(a).png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 45vh;
+  background-position: left center;
+  margin-left: -20%; }
+
+.clock {
+  background-image: url("../images/scene-4/scene-4(c).png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 15vh;
+  margin-top: -300px;
+  margin-left: 80%; }
+
+.group-2 {
+  background-image: url("../images/scene-4/scene-4(b).png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 50vh !important;
+  margin-top: 180px;
+  margin-left: 20% !important; }
+
+#publicdrinking {
+  height: 180vh; }
+
+.slideStreet {
+  background-image: url("../images/scene-5/scene-5-7(a-2).png");
+  background-size: 80% auto;
+  background-repeat: no-repeat;
+  background-position: left center; }
+
+.graffiti-five {
+  background-image: url("../images/scene-5/scene-5-7(e).png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 8vh;
+  background-position: left center;
+  margin-left: 70%;
+  margin-top: 260px; }
+
+.moon-five {
+  background-image: url("../images/scene-5/scene-5-7(d).png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 15vh;
+  background-position: left center;
+  margin-left: 47%;
+  margin-top: -920px; }
+
+.at-five {
+  background-image: url("../images/scene-5/scene-5-7(b).png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin-top: 120px;
+  margin-left: 30%; }
+
+.danni-five {
+  background-image: url("../images/scene-5/scene-5-7(c).png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 30vh;
+  margin-top: -100px;
+  margin-left: 76%; }
+
+#freetime {
+  height: 100vh; }
+
+.slideShop {
+  background-image: url("../images/scene-6/scene-6(a).png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right top; }
+
+.light-six {
+  background-image: url("../images/scene-6/scene-6(e).png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 90vh;
+  background-position: left center;
+  margin-left: 40px; }
+
+.manon-six {
+  background-image: url("../images/scene-6/scene-6(c).png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 55vh;
+  margin-top: -380px;
+  margin-left: 140px; }
+
+.cloud-1 {
+  background-image: url("../images/scene-6/scene-6(cloud-1).png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 15vh;
+  margin-top: 380px;
+  margin-left: 5px; }
+
+.cloud-2 {
+  background-image: url("../images/scene-6/scene-6(cloud-3).png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 20vh;
+  margin-top: -600px;
+  margin-left: 30px; }
+
+.stijn-six {
+  background-image: url("../images/scene-6/scene-6(b).png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 50vh;
+  margin-top: -100px;
+  margin-left: 63%; }
+
+.smoke {
+  background-image: url("../images/scene-6/scene-6(f).png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 5vh;
+  margin-left: 56%;
+  margin-top: -382px; }
+
+.may-six {
+  background-image: url("../images/scene-6/scene-6(d).png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 37vh;
+  margin-top: -300px;
+  margin-left: 80%; }
+
+.cloud-3 {
+  background-image: url("../images/scene-6/scene-6(cloud-2).png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 20vh;
+  margin-top: -100px;
+  margin-left: 75%; }
+
+.floating {
+  -webkit-animation-name: Floatingx;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  -moz-animation-name: Floating;
+  -moz-animation-duration: 3s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: ease-in-out; }
+
+.smoking {
+  -webkit-animation-name: Smoking;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out; }
+
+@-webkit-keyframes Floatingx {
+  from {
+    -webkit-transform: translate(0, 0px); }
+  65% {
+    -webkit-transform: translate(0, 15px); }
+  to {
+    -webkit-transform: translate(0, 0px); } }
+
+@-moz-keyframes Floating {
+  from {
+    -moz-transform: translate(0, 0px); }
+  65% {
+    -moz-transform: translate(0, 15px); }
+  to {
+    -moz-transform: translate(0, 0px); } }
+
+@-webkit-keyframes Smoking {
+  from {
+    -webkit-transform: translate(0, 0px); }
+  65% {
+    -webkit-transform: translate(15px, 0px); }
+  to {
+    -webkit-transform: translate(0, 0px); } }
