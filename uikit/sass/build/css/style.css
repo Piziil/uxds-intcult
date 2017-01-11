@@ -7,8 +7,7 @@ html {
 
 h1 {
   font-family: "Montserrat";
-  letter-spacing: 3px;
-  font-size: 45px;
+  font-size: 2em !important;
   color: #4C4C4C;
   font-weight: 700; }
 
@@ -32,14 +31,12 @@ h5 {
   font-weight: 400; }
 
 p {
-  font-family: "Montserrat";
-  color: #4C4C4C;
-  line-height: 24px; }
-
-p {
   font-family: "Open Sans";
   font-weight: 300;
   color: #000000; }
+
+.uk-text {
+  font-size: 16px; }
 
 .navigation {
   z-index: 1000; }
@@ -91,7 +88,10 @@ p {
   animation: background-fade 2s forwards;
   -webkit-animation: background-fade 2s forwards;
   -moz-animation: background-fade 2s forwards;
-  animation-delay: 4s; }
+  animation-delay: 2.5s; }
+
+.uk-animation-slide-right > img {
+  max-width: 80% !important; }
 
 @-webkit-keyframes background-fade {
   99.9% {
@@ -161,3 +161,6 @@ p {
 
 .centerfix {
   margin: 0px; }
+
+header {
+  background-image: url("../images/scene-1(b).png"); }

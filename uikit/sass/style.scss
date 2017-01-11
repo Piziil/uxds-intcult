@@ -20,8 +20,7 @@ html{
 
 h1{
 	font-family: $montserrat;
-	letter-spacing: 3px;
-	font-size: 45px;
+	font-size: 2em !important;
 	color: #4C4C4C;	
 	font-weight: 700;
 }
@@ -49,15 +48,13 @@ h5{
 }
 
 p{
-	font-family: $montserrat;
-	color: #4C4C4C;
-	line-height: 24px;
-}
-
-p{
 	font-family: $open-sans;
 	font-weight: 300;
 	color: $colorBlack;
+}
+
+.uk-text{
+    font-size: 16px;
 }
 
 // Navigation
@@ -127,9 +124,11 @@ p{
     animation: background-fade 2s forwards;
     -webkit-animation: background-fade 2s forwards;
     -moz-animation: background-fade 2s forwards;
-    animation-delay: 4s;
+    animation-delay: 2.5s;
 }
-
+.uk-animation-slide-right > img{
+    max-width: 80% !important;
+}
 @-webkit-keyframes background-fade {
     99.9% {
         background: url("../images/scene-1(c).png");
@@ -218,7 +217,9 @@ p{
     margin:0px;
 }
 
-
+header{
+    background-image: url("../images/scene-1(b).png");
+}
 
 
 
