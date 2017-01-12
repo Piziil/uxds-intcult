@@ -4,11 +4,6 @@
         <title>Intercultural Communications</title>
         <!-- UIKIT CSS -->
         <link rel="stylesheet" href="css/uikit.gradient.min.css" />
-        <!-- UIKIT JS -->
-        <script src="js/jquery.js"></script>
-        <script src="js/uikit.min.js"></script>
-        <script src="js/components/parallax.js"></script>
-        <script src="js/components/sticky.js"></script>
         <!-- CSS -->
         <link rel="stylesheet" href="css/style.css">
     </head>
@@ -73,15 +68,36 @@
             <section class="uk-cover-background uk-position-relative slides" id="apeunit">
                 <div class="uk-grid" data-uk-grid-margin>
                     <div class="uk-width-medium-1-1">
-                        <div class="uk-vertical-align uk-text-center" style="height: 450px;">
+                        <div class="uk-vertical-align uk-text-center">
                             <div class="uk-vertical-align-middle uk-width-large-1-2 uk-width-small-1-1">
                                 <h1 class="uk-heading-large">Ape Unit</h1>
                                 <p class="uk-text-large">A design and development bureau in Berlin.</p>
+                                
+                                <div class="uk-grid" data-uk-scrollspy="{cls:'uk-animation-slide-top uk-invisible', target:'.mens', delay:300, repeat:true}" data-uk-grid-margin> 
+										<div class="uk-width-1-6 mens uk-invisible">
+                                            <img src="images/scene-3/at-hanging.png">
+                                        </div>
+                                </div>
                             </div>
                         </div>
                     </div>
+                    <div class="uk-container-center">   
+                        <div id="scene3">
+                            <img src="images/scene-3/scene-03.png">
+                        </div>     
+    
+                        <div id="compSlider">
+                            <div class="con">
+                                <img src="https://s24.postimg.org/csqjhve1h/de_data.png" class="" />
+                                <div class="coverImage"></div>
+                                <div class="handle"></div>
+                            </div>
+                        </div>
+                    </div>       
                 </div>
             </section>
+        
+
             <!-- CLOSE Ape Unit -->
 
             <!-- Macromedia Berlin -->
@@ -206,7 +222,7 @@
             </section>
             <!-- CLOSE Free time -->
 
-        </div> <!-- CLOSE container -->
+<!--        </div>  CLOSE container -->
 
         <!-- Offcanvas -->
         <div id="offcanvas" class="uk-offcanvas">
@@ -222,5 +238,14 @@
             </div>
         </div>
         <!-- CLOSE Offcanvas -->
+        
+        <!-- UIKIT JS -->
+        <script src="js/jquery.js"></script>
+        <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+        <script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js'></script>
+        <script src="js/uikit.min.js"></script>
+        <script src="js/components/parallax.js"></script>
+        <script src="js/components/sticky.js"></script>
+        <script src="js/comparisonslider.js"></script>
     </body>
 </html>
