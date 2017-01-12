@@ -213,6 +213,76 @@ p{
         left:400px;
     }
 }
+
+
+// START APE UNIT
+
+#apeunit {
+    margin-bottom: 100px;
+}
+
+#scene3 {
+  margin-top: -200px;
+}
+
+#scene3 img {
+    z-index: 1;
+    pointer-events: none; }
+
+#compSlider {
+  margin-top: -515px; }
+
+.con {
+  width: 544px;
+  height: 403px;
+  border: 0;
+  position: relative;
+  right: -240px;
+  top:0; }
+
+.con img {
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  z-index: -1; }
+
+.coverImage {
+  position: absolute;
+  background: url("https://s27.postimg.org/eapbxdqsz/nl_data.png");
+  background-size: auto 100%;
+  width: 50%;
+  height: 100%;
+
+  z-index: -1; }
+
+.handle {
+  width: 0px;
+  height: 100%;
+  border-left: 10px solid orange;
+  position: absolute;
+  left: 50%; 
+  z-index: 1; }
+
+.handle:after {
+  content: "NL VS DE";
+  font-size: 11px;
+  display: block;
+  width: 60px;
+  height: 60px;
+  border: 2px solid orange;
+  border-radius: 50%;
+  color: white;
+  line-height: 60px;
+  font-weight: 700;
+  text-align: center;
+  background: orange;
+  position: absolute;
+  left: -36px; top: 0; bottom: 0;
+  margin: auto; }
+
+//END APE UNIT
+
+
 #macromedia {
   height: 150vh; }
 
